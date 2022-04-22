@@ -7,9 +7,9 @@
 
 #include "SingletonDatabase.h"
 
-class ProductDatabase final : public SingletonDatabase<ProductDatabase> {
+class ProductDatabase final : public SingletonDatabase<ProductDatabase> {/**esta realizando una herencia al pasar el nombre como un argumento, asegurando la reutilización del codigo*/
 private:
-    map<string, double> products;
+    map<string, double> products;/**tiene una lista*/
 public:
     ProductDatabase();
     virtual ~ProductDatabase();

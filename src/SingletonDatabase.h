@@ -14,7 +14,7 @@
 
 using namespace std;
 
-template <typename T>
+template <typename T>/**la base va a ser genérica*/
 class SingletonDatabase {
 protected:
     SingletonDatabase() {};

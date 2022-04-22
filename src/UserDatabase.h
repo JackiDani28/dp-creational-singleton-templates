@@ -14,7 +14,7 @@ public:
     UserDatabase();
     virtual ~UserDatabase();
 
-    int getAge(const string &name);
+    int getAge(const string &name);/**es distinto porque tiene un int y no un double*/
 };
 
 
